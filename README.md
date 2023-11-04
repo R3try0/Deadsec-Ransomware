@@ -2,7 +2,7 @@
 
 A Ransomware for linux and windows platforms.
 
-Fetures:
+Features:
   * Checking the whole disk for files and encrypting them
   * Sending the decryption key through a server file OR through an email
   * Anti-Reverse enginerring Technics
