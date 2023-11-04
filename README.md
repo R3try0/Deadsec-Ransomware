@@ -7,7 +7,7 @@ Fetures:
   * Sending the decryption key through a server file OR through an email
   * Anti-Reverse enginerring Technics
   * Anti-VM technics
-  * Anti-AV
+  * Anti-AV (use Nuitka to make it an exe)
   * Self destruct
   * Encrypted communication over the socket (RSA)
   * Encrypting Files in AES-ECB mode
