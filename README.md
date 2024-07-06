@@ -1,6 +1,7 @@
 # Deadsec-Ransomware
 
 A Ransomware for linux and windows platforms.
+
 Note: The reason i haven't build it 100% the ransom is because i don't want script kiddies to lay hands on it and do horrable actions
 
 Features:
