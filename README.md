@@ -2,7 +2,7 @@
 
 A Ransomware for linux and windows platforms.
 
-Note: The reason i haven't build it 100% the ransom is because i don't want script kiddies to lay hands on it and do horrable actions
+Note: The reason i haven't build it 100% the ransom is because i don't want script kiddies to lay hands on it if you find difficult to build it message me
 
 Features:
   * Checking the whole disk for files and encrypting them
