@@ -1,26 +1,27 @@
-# Deadsec-Ransomware
+# Ransomware for Linux and Windows Platforms
 
-A Ransomware for linux and windows platforms.
+**Note:** This project is intentionally incomplete to prevent misuse by script kiddies. If you encounter difficulties in building it, please feel free to reach out to me for assistance.
 
-Note: The reason i haven't build it 100% the ransom is because i don't want script kiddies to lay hands on it if you find difficult to build it message me
+## Features
 
-Features:
-  * Checking the whole disk for files and encrypting them
-  * Sending the decryption key through a server file OR through an email
-  * Anti-Reverse enginerring Technics
-  * Anti-VM technics
-  * Anti-AV (use Nuitka to make it an exe)
-  * Self destruct
-  * Encrypted communication over the socket (RSA)
-  * Encrypting Files in AES-ECB mode
-  * Resistent after reboot
-  * GUI message
+- **File Encryption**: Scans the entire disk for files and encrypts them.
+- **Decryption Key Delivery**: Sends the decryption key via a server file or through email.
+- **Anti-Reverse Engineering Techniques**: Implements methods to hinder reverse engineering efforts.
+- **Anti-VM Techniques**: Detects and avoids execution in virtual machines.
+- **Anti-Virus Evasion**: Use Nuitka to compile the script into an executable, making it harder for antivirus software to detect.
+- **Self-Destruct Mechanism**: Includes functionality to delete itself after execution.
+- **Encrypted Communication**: Utilizes RSA for secure communication over sockets.
+- **File Encryption**: Encrypts files using AES-ECB mode.
+- **Persistence**: Remains active even after system reboots.
+- **Graphical User Interface (GUI)**: Displays messages to the user through a GUI.
 
-Legal Disclaimer:
-  This tool is for educational porpuses i am not responsible how you are going to use it. Always use it ethicly.
+## Legal Disclaimer
 
-Modules to install:
-  pip install time string binascii codecs sys platform smtplib ssl threading hashlib glob base64 tkinter
+This tool is intended for educational purposes only. I am not responsible for how you choose to use it. Always act ethically and responsibly.
 
-Report a bug:
-  Feel free to leave me a message about it
+## Installation
+
+To run this project, you will need to install the following Python modules:
+
+```bash
+pip install time string binascii codecs sys platform smtplib ssl threading hashlib glob base64 tkinter
