@@ -11,7 +11,7 @@
 - **Anti-Virus Evasion**: Use Nuitka to compile the script into an executable, making it harder for antivirus software to detect.
 - **Self-Destruct Mechanism**: Includes functionality to delete itself after execution.
 - **Encrypted Communication**: Utilizes RSA for secure communication over sockets.
-- **File Encryption**: Encrypts files using AES-ECB mode.
+- **File Encryption**: Encrypts files using AES-CBC mode.
 - **Persistence**: Remains active even after system reboots.
 - **Graphical User Interface (GUI)**: Displays messages to the user through a GUI.
 
