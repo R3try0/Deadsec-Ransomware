@@ -1,4 +1,4 @@
-# Ransomware for Linux and Windows Platforms
+# Deadsec-Ransomware for Linux and Windows Platforms
 
 **Note:** This project is intentionally incomplete to prevent misuse by script kiddies. If you encounter difficulties in building it, please feel free to reach out to me for assistance.
 
